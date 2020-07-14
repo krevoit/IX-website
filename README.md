@@ -13,7 +13,7 @@ On the non-forked version, I encountered errors installing and compiling the pro
 
 # IXPs currently using IX-website (fork):
 
-* [![SkyIX](https://skyix.net/static/img/skyix.svg)](https://skyix.net) 
+* [![SkyIX](https://skyix.net/static/img/logo.png)](https://skyix.net) 
 
 
 
