@@ -1,47 +1,19 @@
 # IX-website
-Jinja2 templates for IXP (Internet Exchange Point) websites.
+Website for internet exchange points.
 
 ### Install
+On the non-forked version, I encountered errors installing and compiling the program and site. So I have made a fork, where you can just modify it by HTML
 
-*Tested on python 3.6.x*
+### Modifying HTML content
 
-```
-pip install staticjinja2
-```
+* Basically everything you can modify using
+* `index.html` content
+* And for logos, css, etc.
+* `/static` directory
 
-### Configuration
+# IXPs currently using IX-website (fork):
 
-Some website content is modified through the config file `templates/globals.yaml`. The rest will have to be done manually through HTML.
-
-We are planning to make the entire website content configurable through the `globals.yaml` file, however the following yaml settings currently work:
-
-* Logos settings, contact emails, name, URL
-* `ix_home.html` content
-* `ix_locations.html` content
-
-
-#### Modifying HTML content
-
-For the pages where the content cannot yet be changed through yaml, make edits to the relevant template file under `templates/page/`.
-For example, to modify the peers table, change the contents of `templates/page/ix_peers.html`.
-
-
-### Usage 
-
-To build into the `www/` directory after modifying the settings/templates according to your needs:
-
-```
-staticjinja build --srcpath=templates --static=static --outpath=www --globals=globals.yaml
-```
-
-# IXPs currently using IX-website:
-
-
-
-
-
-
-* [![MonctonIX](http://monctonix.ca/static/img/logo.png)](http://monctonix.ca) 
+* [![SkyIX](https://skyix.net/static/img/skyix.svg)](https://skyix.net) 
 
 
 
