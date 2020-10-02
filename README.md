@@ -6,7 +6,7 @@ On the non-forked version, I encountered errors installing and compiling the pro
 
 ### Modifying HTML content
 
-* You can modify the main website using:
+You can modify the main website using:
 * `index.html`
 * And for logos, css, etc.
 * `/static` directory
